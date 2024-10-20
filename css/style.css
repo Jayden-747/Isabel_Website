@@ -41,7 +41,7 @@ body {
 }
 
 .portrait {
-  width: 250px;
+  width: 12vw;
 }
 
 .img-flex {
@@ -108,7 +108,7 @@ body {
 }
 
 #im-isabel-imgs {
-  width: 450px;
+  width: 30vw;
   height: fit-content;
 
   padding-top: 10px;
