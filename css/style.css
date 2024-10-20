@@ -70,8 +70,6 @@ body {
 
   align-items: center;
   justify-content: space-evenly;
-
-  font-family: DMSans;
 }
 
 #im-isabel-content {
@@ -88,9 +86,10 @@ body {
 #im-isabel-title {
   padding-bottom: 2rem;
 
-  color: rgb(172, 174, 255);
+  font-family: DMSans;
   font-size: 45px;
   font-weight: 500;
+  color: rgb(172, 174, 255);
 }
 
 #im-isabel-descr {
