@@ -6,19 +6,19 @@
 
 @font-face {
   font-family: Quicksand;
-  src: url(font/Quicksand/Quicksand-VariableFont_wght.ttf);
+  src: url(../font/Quicksand/Quicksand-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: DMSans;
-  src: url(font/DM_Sans/DMSans-VariableFont_opsz\wght.ttf);
+  src: url(../font/DM_Sans/DMSans-VariableFont_opsz\wght.ttf);
 }
 @font-face {
   font-family: Noto;
-  src: url(font/Noto_Serif/NotoSerif-VariableFont_wdth\wght.ttf);
+  src: url(../font/Noto_Serif/NotoSerif-VariableFont_wdth\wght.ttf);
 }
 @font-face {
   font-family: Ephesis;
-  src: url(font/Ephesis/Ephesis-Regular.ttf);
+  src: url(../font/Ephesis/Ephesis-Regular.ttf);
 }
 
 body {
@@ -74,14 +74,19 @@ body {
   font-family: DMSans;
 }
 
-#im-isabel-inner {
-  max-width: 30%;
+#im-isabel-content {
   height: fit-content;
+  max-width: 100%;
+
+  justify-content: space-evenly;
+}
+
+#im-isabel-text {
+  max-width: 32%;
 }
 
 #im-isabel-title {
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
+  padding-bottom: 2rem;
 
   color: rgb(172, 174, 255);
   font-size: 45px;
@@ -95,17 +100,26 @@ body {
   font-weight: 400;
   color: rgb(255, 255, 255);
 
-  line-height: 2rem;
+  line-height: 2.5rem;
+}
+
+#im-isabel-descr > p {
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 #im-isabel-imgs {
-  width: 30%;
-  height: 800px;
-  max-width: 48%;
+  width: 450px;
+  height: fit-content;
+
+  padding-top: 10px;
 
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  gap: 50px;
+
+  position: sticky;
+  top: 10vh;
 }
 
 #second-img {
