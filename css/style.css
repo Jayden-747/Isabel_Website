@@ -157,8 +157,24 @@ body {
   justify-content: end;
 }
 
-.cover {
-  width: 5vw;
+.song {
+  padding: 3% 3% 8% 3%;
+
+  border-radius: 4px;
+}
+
+.song-cover {
+  width: 12vw;
+
+  border-radius: 4px;
+}
+
+.song-title {
+  padding-top: 1.5rem;
+
+  font-size: 1.8vw;
+  font-weight: 600;
+  font-family: Poiret;
 }
 
 #my-music {
@@ -173,7 +189,7 @@ body {
 }
 
 #my-music-container {
-  justify-content: center;
+  align-items: center;
 
   width: 100%;
 }
