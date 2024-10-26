@@ -1,7 +1,7 @@
 :root {
-  --main-colour: black;
-  --accent-colour: black;
-  --song-border: solid black 1px;
+  --main-colour   : black;
+  --accent-colour : black;
+  --song-border   : solid black 1px;
 }
 
 .flex-column {
@@ -15,14 +15,14 @@
 }
 
 .container {
-  width: 75vw;
+  width : 75vw;
 }
 
 .title {
-  font-family: poiret;
-  font-size: 80px;
-  font-weight: bold;
-  color: rgb(172, 174, 255);
+  font-family : poiret;
+  font-size   : 80px;
+  font-weight : bold;
+  color       : rgb(172, 174, 255);
 }
 
 @font-face {
@@ -71,7 +71,7 @@ body {
 }
 
 .portrait {
-  width : 12vw;
+  width : 15vw;
 }
 
 .img-flex {
@@ -84,7 +84,7 @@ body {
   justify-content : center;
   flex-direction  : column;
 
-  height: 100vh;
+  height          : 100vh;
 }
 
 #header-title {
@@ -94,17 +94,17 @@ body {
 }
 
 #header-talents {
-  width: 100%;
+  width           : 100%;
 
-  margin-top: 20vh;
+  margin-top      : 20vh;
 
-  font-size: 2vw;
+  font-size       : 2vw;
 
-  justify-content: space-evenly;
+  justify-content : space-evenly;
 }
 
 #my-story {
-  height: 160vh;
+  height          : 160vh;
 
   align-items     : center;
   justify-content : space-evenly;
@@ -112,13 +112,13 @@ body {
 
 #my-story-content {
   height          : fit-content;
-  width           : 100%;
+  width           : 80%;
 
-  justify-content: space-between;
+  justify-content : space-between;
 }
 
 #my-story-text {
-  max-width: 47%;
+  max-width : 40%;
 }
 
 #my-story-title {
@@ -131,73 +131,66 @@ body {
   font-size      : 60px;
   font-weight    : bold;
   color          : rgb(172, 174, 255);
-  border-bottom: 2px solid rgb(60, 61, 119);
+  border-bottom  : 2px solid rgb(60, 61, 119);
 }
 
 #my-story-desc {
-  padding     : 0 3%;
-
-  font-size   : 18px;
   font-weight : 500;
   color       : rgb(255, 255, 255);
-
-  line-height : 2.5rem;
 }
 
 #my-story-desc > p {
-  margin-top    : 0;
-  margin-bottom : 20px;
+  padding     : 0 5%;
+
+  font-size   : 14px;
+  font-weight : 500;
+  line-height : 1.6rem;
+  color       : rgb(255, 255, 255);
+
 }
 
-#my-story-imgs {
-  width: 30vw;
-
-  padding-top    : 10px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-#second-img {
+#my-story-img {
   width           : 100%;
   display         : flex;
-  justify-content : end;
+  flex-direction  : column;
+  justify-content : space-evenly;
+  align-items     : center;
 }
 
 .song {
-  padding: 3% 3% 8% 3%;
+  padding       : 3% 3% 3% 3%;
 
-  border-radius: 4px;
+  border-radius : 4px;
 }
 
 .song-cover {
-  width: 12vw;
+  width         : 8vw;
 
-  border-radius: 4px;
+  border-radius : 4px;
 }
 
 .song-title {
-  padding-top: 1.5rem;
+  padding-top : 1.5rem;
 
-  font-size: 1.8vw;
-  font-weight: 600;
-  font-family: Poiret;
+  font-size   : 1.2vw;
+  font-weight : 600;
+  font-family : Poiret, serif;
 }
 
 #my-music {
-  height: 60vh;
+  height          : 60vh;
 
   justify-content : center;
   align-items     : center;
 }
 
 #my-music-title {
-  width : 100%;
+  width          : 80%;
+  padding-bottom : 1rem;
 }
 
 #my-music-container {
-  align-items: center;
+  align-items : center;
 
-  width           : 100%;
+  width       : 80%;
 }
