@@ -1,0 +1,57 @@
+:root {
+  --main-colour   : black;
+  --accent-colour : black;
+  --song-border   : solid black 1px;
+}
+
+@font-face {
+  font-family : Quicksand;
+  src         : url(../font/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family : Ephesis;
+  src         : url(../font/Ephesis/Ephesis-Regular.ttf);
+}
+
+@font-face {
+  font-family : poiret;
+  src         : url(../font/Poiret_One/PoiretOne-Regular.ttf);
+}
+
+body {
+  padding     : 0 85px;
+  font-family : Quicksand, serif;
+  box-shadow  : 0 0 50px inset rgb(12, 12, 12);
+}
+
+.title {
+  font-family    : poiret, serif;
+
+  font-weight    : bold;
+  color          : rgb(172, 174, 255);
+  border-bottom  : 2px solid rgb(60, 61, 119);
+
+  padding-bottom : 1rem;
+  margin-bottom  : 2rem;
+
+  border-bottom  : 2px solid rgb(60, 61, 119);
+}
+
+#header-talents {
+  font-size : 2vw;
+}
+
+#my-story-desc {
+  font-weight : 500;
+  color       : rgb(255, 255, 255);
+}
+
+
+.song-title {
+  font-family : Poiret, serif;
+
+  font-size   : 2vw;
+  font-weight : 600;
+}
+
