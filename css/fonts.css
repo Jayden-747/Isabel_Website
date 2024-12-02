@@ -10,6 +10,11 @@
 }
 
 @font-face {
+  font-family : petit;
+  src         : url(../font/Petit_Formal_Script/PetitFormalScript-Regular.ttf);
+}
+
+@font-face {
   font-family : Ephesis;
   src         : url(../font/Ephesis/Ephesis-Regular.ttf);
 }
@@ -25,8 +30,18 @@ body {
   box-shadow  : 0 0 50px inset rgb(12, 12, 12);
 }
 
+#isabelHombre {
+  font-family : petit;
+  font-size   : 7vw;
+}
+
+#my-story {
+  font-family : Quicksand;
+}
+
 .title {
   font-family    : poiret, serif;
+  font-size      : 4vw;
 
   font-weight    : bold;
   color          : rgb(172, 174, 255);
