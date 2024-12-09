@@ -12,11 +12,12 @@
 
   <body class="bg-dark text-white">
     <!--Title-->
+
     <section class="container d-flex flex-column align-items-center justify-content-center vh-100">
 
       <h1 id="isabelHombre">Isabel Hombre</h1>
 
-      <div id="header-talents" class="d-flex flex-row justify-content-between w-50 my-5">
+      <div id="header-talents" class="d-flex flex-row justify-content-between w-50">
         <div>Singer</div>
         <div>Song Writer</div>
         <div>Performer</div>
@@ -25,10 +26,10 @@
     </section>
 
     <!--MY STORY-->
-    <section class="container my-5 py-5">
+    <section class="container py-5 vh-100">
       <div class="container align-items-center">
 
-        <h2 id="my-story-title" class="title">My Story</h2>
+        <h2 id="my-story-title" class="title">Me</h2>
 
         <div id="my-story-text">
           <p id="my-story" class="fs-6 lead fw-medium">
@@ -68,9 +69,9 @@
     </section>
 
     <!--MY MUSIC-->
-    <section class="container d-flex flex-column my-5 py-5">
+    <section class="container d-flex flex-column justify-content-center py-5 vh-100">
 
-      <h2 class="title">My Music</h2>
+      <h2 class="title">Music</h2>
 
       <div class="d-flex flex-wrap flex-row">
         <div class="p-3 d-flex flex-column w-25">
@@ -82,49 +83,46 @@
     </section>
 
     <!--GET IN TOUCH-->
-    <section class="container d-flex flex-column my-5 py-5">
+    <section class="container d-flex flex-column justify-content-center py-5 vh-100">
 
-      <h2 class="title">Get in Touch</h2>
+      <h2 class="title">Contact</h2>
 
-      <div class="w-100 d-flex justify-content-center">
-        <form class="w-50">
-          <!-- Name input -->
-          <div data-mdb-input-init class="form-outline mb-4">
-            <label class="form-label" for="form4Example1">Name</label>
-            <input type="text" id="form4Example1" class="form-control rounded-0"/>
-          </div>
+      <form class="w-100 d-flex flex-column align-items-center">
+        <!-- Name input -->
+        <div data-mdb-input-init class="form-outline mb-4 w-100">
+          <label class="form-label" for="form4Example1">Name</label>
+          <input type="text" id="form4Example1" class="form-control bg-dark text-light rounded-0"/>
+        </div>
 
-          <!-- Email input -->
-          <div data-mdb-input-init class="form-outline mb-4">
-            <label class="form-label" for="form4Example2">Email address</label>
-            <input type="email" id="form4Example2" class="form-control rounded-0"/>
-          </div>
+        <!-- Email input -->
+        <div data-mdb-input-init class="form-outline mb-4 w-100">
+          <label class="form-label" for="form4Example2">Email address</label>
+          <input type="email" id="form4Example2" class="form-control bg-dark text-light rounded-0"/>
+        </div>
 
-          <!-- Message input -->
-          <div data-mdb-input-init class="form-outline mb-4">
-            <label class="form-label" for="form4Example3">Message</label>
-            <textarea id="form4Example3" class="form-control rounded-0" rows="15"></textarea>
-          </div>
+        <!-- Message input -->
+        <div data-mdb-input-init class="form-outline mb-4 w-100">
+          <label class="form-label" for="form4Example3">Message</label>
+          <textarea id="form4Example3" class="form-control bg-dark text-light rounded-0" rows="15"></textarea>
+        </div>
 
-          <!-- Checkbox -->
-          <div class="form-check d-flex justify-content-center mb-4">
-            <input
-                class="form-check-input me-2"
-                type="checkbox"
-                value=""
-                id="form4Example4"
-                checked
-            />
-            <label class="form-check-label" for="form4Example4">
-              Send me a copy of this message
-            </label>
-          </div>
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input
+              class="form-check-input me-2"
+              type="checkbox"
+              value=""
+              id="form4Example4"
+              checked
+          />
+          <label class="form-check-label" for="form4Example4">
+            Send me a copy of this message
+          </label>
+        </div>
 
-          <!-- Submit button -->
-          <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block w-100 mb-4 rounded-0">Send
-          </button>
-        </form>
-      </div>
+        <!-- Submit button -->
+        <button data-mdb-ripple-init type="button" class="w-25 text-center">Send</button>
+      </form>
     </section>
   </body>
 </html>

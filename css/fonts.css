@@ -1,7 +1,7 @@
 :root {
-  --main-colour   : black;
-  --accent-colour : black;
-  --song-border   : solid black 1px;
+  --primary-colour   : #ACAEFFFF;
+  --secondary-colour : black;
+  --song-border      : solid black 1px;
 }
 
 @font-face {
@@ -30,6 +30,21 @@ body {
   box-shadow  : 0 0 50px inset rgb(12, 12, 12);
 }
 
+button {
+  all     : unset;
+  border  : 2px var(--primary-colour) solid;
+  padding : .5rem 1rem;
+}
+
+button:hover {
+  background-color : var(--primary-colour);
+  color            : black;
+}
+
+.form-control {
+  border : 2px var(--primary-colour) solid;
+}
+
 .signature {
   font-family : petit;
 }
@@ -52,13 +67,11 @@ body {
   font-size      : 4vw;
 
   font-weight    : bold;
-  color          : rgb(172, 174, 255);
-  border-bottom  : 2px solid rgb(60, 61, 119);
+  color          : var(--primary-colour);
 
   padding-bottom : 1rem;
   margin-bottom  : 2rem;
 
-  border-bottom  : 2px solid rgb(60, 61, 119);
 }
 
 #header-talents {
@@ -67,9 +80,8 @@ body {
 
 #my-story-desc {
   font-weight : 500;
-  color       : rgb(255, 255, 255);
+  color       : white;
 }
-
 
 .song-title {
   font-family : Poiret, serif;
