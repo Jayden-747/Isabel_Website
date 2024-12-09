@@ -12,7 +12,7 @@
 
   <body class="bg-dark text-white">
     <!--Title-->
-    <section class="container-fluid d-flex flex-column align-items-center justify-content-center vh-100">
+    <section class="container d-flex flex-column align-items-center justify-content-center vh-100">
 
       <h1 id="isabelHombre">Isabel Hombre</h1>
 
@@ -24,15 +24,17 @@
 
     </section>
 
+    <!--MY STORY-->
+    <section class="container my-5 py-5">
+      <div class="container align-items-center">
 
-    <!--My Story-->
-    <section class="container-fluid my-5 py-5">
-      <div class="row align-items-center">
         <h2 id="my-story-title" class="title">My Story</h2>
-        <div id="my-story-text" class="col-md">
 
-          <!--Text Content-->
-          <p id="my-story" class="fs-6 lead fw-bold">
+        <div id="my-story-text">
+          <p id="my-story" class="fs-6 lead fw-medium">
+            <img id="my-story-img" class="portrait rounded float-end ms-4 mb-4"
+                 src="img/IsabelPortrait.jpg"
+                 alt="Isabel Portrait"/>
             I'm a passionate singer and acoustic guitar player based in
             Vancouver. Music has been the heartbeat of my life for as long as
             I can remember, and I'm thrilled to share my journey with you.
@@ -56,33 +58,34 @@
             <br><br>
             Your support means the world to me.
             <br><br>
-            <span style="font-family: petit; font-size: 2vw">Isabel</span>
+            <span class="signature">Isabel</span>
           </p>
         </div>
-        <div class="col-md d-flex justify-content-center">
-          <img class="portrait img-fluid w-50"
-               src="img/IsabelPortrait.jpg"
-               alt="Isabel Portrait"/>
+        <!--My Story Img-->
+        <div class=" d-flex justify-content-center">
         </div>
       </div>
     </section>
 
-    <section class="d-flex flex-column container-fluid my-5 py-5">
+    <!--MY MUSIC-->
+    <section class="container d-flex flex-column my-5 py-5">
 
       <h2 class="title">My Music</h2>
 
-      <div class="d-flex flex-wrap flex-row w-100">
+      <div class="d-flex flex-wrap flex-row">
         <div class="p-3 d-flex flex-column w-25">
           <img class="rounded my-3" src="img/freeSpiritCover.jpg" alt="Free Spirit"/>
-          <div class="song-title">Free Spirit</div>
+          <div class="song-title fs-3 fs-sm-5">Free Spirit</div>
           <div class="">Isabel Hombre</div>
         </div>
       </div>
     </section>
 
-    <section class="d-flex flex-column container-fluid my-5 py-5">
+    <!--GET IN TOUCH-->
+    <section class="container d-flex flex-column my-5 py-5">
 
       <h2 class="title">Get in Touch</h2>
+
       <div class="w-100 d-flex justify-content-center">
         <form class="w-50">
           <!-- Name input -->

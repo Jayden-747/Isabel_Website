@@ -30,6 +30,10 @@ body {
   box-shadow  : 0 0 50px inset rgb(12, 12, 12);
 }
 
+.signature {
+  font-family : petit;
+}
+
 #isabelHombre {
   font-family : petit;
   font-size   : 7vw;
@@ -37,6 +41,10 @@ body {
 
 #my-story {
   font-family : Quicksand;
+}
+
+#my-story-img {
+  width : 100%;
 }
 
 .title {
@@ -67,6 +75,36 @@ body {
   font-family : Poiret, serif;
 
   font-size   : 2vw;
-  font-weight : 600;
+  font-weight : bold;
 }
 
+@media (min-width : 576px) {
+  #my-story-img {
+    width : 100%;
+  }
+
+  .song-title {
+    font-family : Poiret, serif;
+
+    font-weight : bold;
+    font-size   : 10px;
+  }
+}
+
+@media (min-width : 768px) {
+  #my-story-img {
+    width : 40%;
+  }
+}
+
+@media (min-width : 992px) {
+  #my-story-img {
+    width : 35%;
+  }
+}
+
+@media (min-width : 1400px) {
+  #my-story-img {
+    width : 25%;
+  }
+}
